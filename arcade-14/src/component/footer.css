@@ -1,0 +1,126 @@
+
+
+.footer-container 
+{
+    background-color: #8A0000; 
+    color: #fff; 
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+   
+  
+}
+  
+.footer-logo
+{
+  height: 100px;
+}
+
+
+.footer-content
+{
+  
+  display: flex;
+  flex-direction: column;
+
+}
+
+.location
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.location-link
+{
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.email
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-link
+{
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.footer-socials
+{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.love-by-CodeCell
+{
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  color: #FFF;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+
+.footer-contact
+{
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #FFF;
+
+}
+
+.footer-icons
+{
+
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+}
+
+
+@media (max-width: 500px) 
+{
+  .footer-contact
+  {
+    font-size: medium;
+  }
+  .love-by-CodeCell
+  {
+    font-size: medium;
+  }
+}
+
+ 
