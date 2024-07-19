@@ -1,68 +1,124 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.about-box
+{
+    
+    margin: 0;
+    overflow: hidden;
+    opacity:0.7 ;
+    width: 100%;
+    height: 659px;
+    position: absolute;
+    padding: 0;
+    
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+.about-image
+{
+    
+  width: 100%;
+  height: auto;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+.box
+{
+    position: relative;
+    margin-bottom: 659px;
+    
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.redfilter
+{
+    background-color: #8A0000;
+    opacity: 0.7;
+    width: 100%;
+    height: 659px;
+    position: absolute;
+
+
+    
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+
+.about-content
+{
+    
+    position: absolute;
+    width: 90%;
+    height: 600px;
+    border: 2px solid white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-left: 3%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 29.5px;
+    color: #FFFFFF;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    
+    
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.about-content >p
+{
+    line-height: 50px;
+    
+}
+
+@media (max-width:1200px) 
+{
+    .about-content
+    {
+        font-size:28px;
+        margin-right: 3%;
+    }
+
+    .about-content >p
+    {
+        line-height: 35px;
+        
+    }
+    .about-image
+    {
+        width: auto;
+        height: 100%;
+        overflow: hidden;
+    }
+}
+
+@media (max-width:800px) 
+{
+    .about-content
+    {
+        font-size:15px;
+        margin-right: 3%;
+    }
+
+    .about-content >p
+    {
+        line-height: 35px;
+        
+    }
+    
+}
+
+
+@media (max-width:335px) 
+{
+    .about-content
+    {
+        font-size:10px;
+        margin-right: 3%;
+    }
+    
 }
